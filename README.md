@@ -1,26 +1,25 @@
 classDiagram
-direction TB
     class iPhone {
     }
 
-    class ReprodutorMusical {
+ class ReprodutorMusical {
 	    Tocar()
 	    Pausar()
 	    SelecionarMusica(String musica)
     }
 
-    class AparelhoTelefonico {
+class AparelhoTelefonico {
 	    Ligar(String numero)
 	    atender()
 	    iniciarCorreioDeVoz()
     }
 
-    class NavegadorInternet {
+class NavegadorInternet {
 	    exibirPagina(String url)
 	    adicionarNovaAba()
 	    atualizarPagina()
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+iPhone --> ReprodutorMusical
+iPhone --> AparelhoTelefonico
+iPhone --> NavegadorInternet
